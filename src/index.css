@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url("./assets/libros.jpg");
+  flex-direction: column;
+}
+
+.libro{
+  display:flex;
+  flex-direction:column;
+  border: 5px dashed rgb(124, 124, 207);
+  padding: 10px;
+  margin: 10px;
+  font-size: 14px;
+  backdrop-filter: blur(20px);
+  width: 450px;
+  height: 450px;
+}
+
